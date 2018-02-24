@@ -19,7 +19,25 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBOutlet weak var edtAltura: UITextField!;
+    @IBOutlet weak var edtPeso: UITextField!;
+    @IBOutlet weak var lblResultado: UILabel!;
+    @IBOutlet weak var btnCalcular: UIButton!;
+    
+    @IBAction func CalcularImc(_ sender: Any) {
+        let peso = Float(edtPeso.text!);
+        let altura = Float(edtAltura.text!);
+        let resultado = Float((peso!) / (altura! * altura!));
+        
+        lblResultado.text = String.init(format:"Resultado: %0.2f", resultado);
+        clear();
+    }
+    
+    func clear(){
+        edtPeso.text = "";
+        edtAltura.text = "";
+        
+    }
+    
 }
 

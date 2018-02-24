@@ -12,6 +12,7 @@
 		57ED94132041820E00B537BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED94112041820E00B537BB /* Main.storyboard */; };
 		57ED94152041820E00B537BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ED94142041820E00B537BB /* Assets.xcassets */; };
 		57ED94182041820E00B537BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED94162041820E00B537BB /* LaunchScreen.storyboard */; };
+		57ED94202041907700B537BB /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57ED941F2041907600B537BB /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		57ED94142041820E00B537BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57ED94172041820E00B537BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57ED94192041820E00B537BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ED941F2041907600B537BB /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../../../Documents/image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				57ED940F2041820E00B537BB /* ViewController.swift */,
 				57ED94112041820E00B537BB /* Main.storyboard */,
 				57ED94142041820E00B537BB /* Assets.xcassets */,
+				57ED941F2041907600B537BB /* image.jpg */,
 				57ED94162041820E00B537BB /* LaunchScreen.storyboard */,
 				57ED94192041820E00B537BB /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 				57ED94182041820E00B537BB /* LaunchScreen.storyboard in Resources */,
 				57ED94152041820E00B537BB /* Assets.xcassets in Resources */,
 				57ED94132041820E00B537BB /* Main.storyboard in Resources */,
+				57ED94202041907700B537BB /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
